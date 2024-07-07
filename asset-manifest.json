@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Sample-React-App/static/css/main.2f4c04f7.css",
-    "main.js": "/Sample-React-App/static/js/main.72aeaffb.js",
+    "main.js": "/Sample-React-App/static/js/main.d8f7a7ff.js",
     "static/media/Tomato 2.png": "/Sample-React-App/static/media/Tomato 2.bed6eb4881bf6b5a1a4e.png",
     "index.html": "/Sample-React-App/index.html",
     "main.2f4c04f7.css.map": "/Sample-React-App/static/css/main.2f4c04f7.css.map",
-    "main.72aeaffb.js.map": "/Sample-React-App/static/js/main.72aeaffb.js.map"
+    "main.d8f7a7ff.js.map": "/Sample-React-App/static/js/main.d8f7a7ff.js.map"
   },
   "entrypoints": [
     "static/css/main.2f4c04f7.css",
-    "static/js/main.72aeaffb.js"
+    "static/js/main.d8f7a7ff.js"
   ]
 }
