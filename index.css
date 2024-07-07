@@ -1,0 +1,163 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #dac292;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+i{
+  margin: 12px;
+  padding: 5px;
+}
+
+/* Contact page styles */
+
+.contact-container {
+  
+  
+  padding: 20px;
+  background-color: #dac292;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-container h4 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-container a {
+  color: #11832c;
+  margin-right: 10px;
+}
+
+.contact-container a:hover {
+  text-decoration: none;
+  color: #333;
+}
+.nav-link:hover{
+transform: scale(1.1);
+}
+
+.field-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.field-box label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.field-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.loginpage{
+  box-shadow: 5px 5px 4px 3px #5a4c4c;
+  padding: 15px;
+  margin: 50px;
+  border-radius: 10px;
+  background-color:  #b9936c;
+}
+
+#login{
+  height: auto;
+}
+
+.btn:hover{
+transform: scale(1.1);
+background-color: #b9936c;
+color: white;
+}
+
+#brand{
+  text-decoration: none;
+  color: white;
+}
+
+table {
+  font-size: x-large;
+}
+
+.card{
+  background-color: #86af49;
+}
+
+#cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+
+
+@media screen  and  (max-width: 600px){
+
+  #cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+  .card{
+    height: 80%;
+    width: 80%;
+    margin-left: 45px;
+  }
+
+  .card .card-body small{
+    font-size: small;
+  }
+  
+}
+
+.card-image-top{
+  height: 50%;
+  width: auto;
+}
+
+small{
+  font-size: x-small;
+  color: #666;
+}
